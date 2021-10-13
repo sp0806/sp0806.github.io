@@ -40,3 +40,31 @@ main {
 .contact a svg path {
   fill: rgb(255, 255, 255);
 }
+
+@media (min-width: 600px) {
+  .name {
+    font-size: 500%;
+  }
+  .intro {
+    font-size: 150%;
+  }
+  .contact {
+    font-size: 250%;
+  }
+}
+@media (max-width: 600px) {
+  .name {
+    font-size: 310%;
+  }
+  .intro {
+    font-size: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 2.1%;
+  }
+  .contact {
+    font-size: 150%;
+  }
+  .contact i {
+    padding: 0.8%;
+  }
+}
